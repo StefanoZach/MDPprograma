@@ -76,7 +76,6 @@ footer{
 .divsFooter2{
     margin-top: 5px;
     margin-right: 5px;
-    justify-content: space-between;
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
@@ -84,7 +83,6 @@ footer{
 }
 .divsFooter3{
     margin-top: 5px;
-    justify-content: space-between;
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
