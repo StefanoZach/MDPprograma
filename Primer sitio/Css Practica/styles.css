@@ -5,43 +5,50 @@
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
-    justify-content:space-between
+    justify-content: space-between
 }
 
-#logo{
+#logo {
     width: 25%;
     height: 35vh;
     background-color: red;
     margin-top: 15px;
     margin-left: 15px;
-   
+
 }
 
-#img{
+#img {
     width: 100%;
     height: 100%;
 }
 
-#menu{
+#menu {
     width: 35%;
     height: 35vh;
-   
+
 
 }
 
-body{
+body {
     background-color: rgb(143, 33, 33);
 
 }
-main{
+
+main {
     display: flex;
 
 }
-footer{
+
+nav {
+    float: center;
+}
+
+footer {
     display: flex;
 
 }
-#left{
+
+#left {
     width: 25%;
     height: 70vh;
     margin-top: 5px;
@@ -52,7 +59,7 @@ footer{
 
 }
 
-#right{
+#right {
     width: 75%;
     height: 70vh;
     margin-top: 5px;
@@ -62,46 +69,50 @@ footer{
     background-color: rgb(143, 33, 33);
 }
 
-#lineas{
+.lineas {
     margin-left: 10px;
+    line-height: 18px;
+    box-sizing: border-box;
 }
-.divsFooter1{
+
+.divsFooter1 {
     margin-top: 5px;
     margin-right: 5px;
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
-    
+
 }
-.divsFooter2{
+
+.divsFooter2 {
     margin-top: 5px;
     margin-right: 5px;
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
-    
+
 }
-.divsFooter3{
+
+.divsFooter3 {
     margin-top: 5px;
     border-style: groove;
     border-color: rgb(192, 87, 49);
     background-color: rgb(143, 33, 33);
-    
+
 }
-.pFooter{
+
+.pFooter {
     padding: 5px;
     margin-left: 5px;
 }
 
-ol{
+ol {
+    float: center;
     list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+    border-bottom: 1px solid brown;
     
 }
-
-ul{
-    list-style-type: none;
-}
-
-
-
-
