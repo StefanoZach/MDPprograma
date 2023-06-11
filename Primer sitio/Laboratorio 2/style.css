@@ -69,6 +69,43 @@ body{
     height: 250px;
     width: 300px;
     margin-bottom: 10px;
-    background-color: #fcfcfc;
+    background-color:white;
     border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.itemCart{
+    display: none;
+}
+
+.itemImg > img{
+    max-width: 100%;
+    justify-content: center;
+}
+.itemTitle{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.itemPrice{
+    border-radius: 10px;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.itemPrice:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.itemPrice .itemCart i:hover{
+    display: inline-block !important;
+}
+
